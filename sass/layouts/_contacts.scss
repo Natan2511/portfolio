@@ -1,0 +1,38 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts>h2{
+    margin-top: 114px;
+    margin-bottom: 20px;
+}
+.contacts__list{
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__btn{
+    width: 180px;
+    height: 42px;
+    background-color: var(--black);
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 86px;
+}
+.contacts__btn:active{
+    transform: scale(0.93);
+}
+
+.contacts__list--two{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 50px;
+}

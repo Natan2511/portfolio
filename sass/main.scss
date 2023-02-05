@@ -1,0 +1,24 @@
+//                                  *base
+@import "./base/normalize";
+@import "./base/common";
+@import "./base/reser";
+
+//                                  *components
+@import "./components/logo";
+@import "./components/container";
+
+//                                  *layouts
+@import "./layouts/header";
+@import "./layouts/main_header";
+@import "./layouts/about";
+@import "./layouts/skills";
+@import "./layouts/portfolio";
+@import "./layouts/contacts";
+
+
+//                                  *utils
+@import "./utils/hidden";
+@import "./utils/variables";
+
+
+

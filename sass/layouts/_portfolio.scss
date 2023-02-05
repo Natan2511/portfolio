@@ -1,0 +1,14 @@
+.portfolio{
+    background-color: var(--mostly-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio>h2{
+    font-size: 34px;
+    line-height: 42px;
+}
+.portfolio__container{
+    margin-top: 115px;
+    margin-bottom: 47px;
+}
