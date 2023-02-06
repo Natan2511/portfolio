@@ -7,10 +7,11 @@
 .contacts>h2{
     margin-top: 114px;
     margin-bottom: 20px;
+    font-size: 34px;
 }
 .contacts__list{
     margin-bottom: 30px;
-    font-size: 14px;
+    font-size: 22px;
     line-height: 22px;
     display: flex;
     flex-direction: column;
@@ -19,8 +20,8 @@
 }
 
 .contacts__btn{
-    width: 180px;
-    height: 42px;
+    width: 200px;
+    height: 50px;
     background-color: var(--black);
     line-height: 22px;
     border-radius: 30px;
@@ -31,7 +32,7 @@
 }
 .contacts__btn>a{
     color: white;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
 }
 

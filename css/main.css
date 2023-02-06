@@ -309,7 +309,7 @@ img {
 
 .header__nav--link {
   font-weight: 400;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 22px;
   color: var(--gray);
 }
@@ -339,7 +339,7 @@ img {
 }
 
 .briefly__par {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 30px;
   color: var(--black);
   width: 220px;
@@ -358,13 +358,13 @@ img {
 
 .ru {
   color: var(--black);
-  font-size: 20px;
+  font-size: 22px;
   line-height: 20px;
 }
 
 .eng {
   color: var(--gray);
-  font-size: 20px;
+  font-size: 22px;
   line-height: 20px;
 }
 
@@ -407,7 +407,7 @@ img {
 
 .about__por {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 22px;
 }
 
@@ -437,7 +437,7 @@ img {
 
 .skills__link > p {
   margin-top: 25px;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 17px;
   color: var(--gray);
   margin-bottom: 40px;
@@ -473,7 +473,7 @@ img {
 .works__picture > a {
   margin-top: 45px;
   margin-bottom: 100px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 2.2rem;
   color: var(--black);
   text-decoration: underline;
@@ -489,11 +489,12 @@ img {
 .contacts > h2 {
   margin-top: 114px;
   margin-bottom: 20px;
+  font-size: 34px;
 }
 
 .contacts__list {
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 22px;
   line-height: 22px;
   display: flex;
   flex-direction: column;
@@ -502,8 +503,8 @@ img {
 }
 
 .contacts__btn {
-  width: 180px;
-  height: 42px;
+  width: 200px;
+  height: 50px;
   background-color: var(--black);
   line-height: 22px;
   border-radius: 30px;
@@ -516,7 +517,7 @@ img {
 
 .contacts__btn > a {
   color: white;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -536,7 +537,7 @@ img {
 }
 
 .footer > p {
-  font-size: 14px;
+  font-size: 20px;
   line-height: 17px;
   color: var(--gray);
   margin-top: 0;
