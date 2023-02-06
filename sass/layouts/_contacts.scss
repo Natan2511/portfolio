@@ -10,29 +10,35 @@
 }
 .contacts__list{
     margin-bottom: 30px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: var(--gray);
 }
 
 .contacts__btn{
     width: 180px;
     height: 42px;
     background-color: var(--black);
-    font-size: 18px;
     line-height: 22px;
-    color: #fff;
     border-radius: 30px;
     margin-bottom: 86px;
 }
 .contacts__btn:active{
     transform: scale(0.93);
 }
+.contacts__btn>a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
 
 .contacts__list--two{
     display: flex;
     gap: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
+    margin-left: -50px;
 }
+
