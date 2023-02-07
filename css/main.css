@@ -325,8 +325,7 @@ img {
   margin-top: 32px;
   margin-bottom: 32px;
   display: flex;
-  gap: 156px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -469,6 +468,12 @@ img {
   align-items: center;
   gap: 12px;
 }
+@media screen and (max-width: 768px) {
+  .about__list {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
 
 .about__tittle {
   font-size: 34px;
@@ -480,6 +485,7 @@ img {
   font-weight: 300;
   font-size: 22px;
   line-height: 22px;
+  text-align: center;
 }
 @media screen and (max-width: 768px) {
   .about__por {
@@ -665,8 +671,14 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 125px;
+  margin-bottom: 100px;
 }
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-bottom: 50px;
+  }
+}
+
 .footer > p {
   font-size: 20px;
   line-height: 17px;
