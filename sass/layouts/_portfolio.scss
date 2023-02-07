@@ -29,4 +29,22 @@
     line-height: 2.2rem;
     color: var(--black);
     text-decoration: underline;
+    @media screen and (max-width: 768px){
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+.work__img--one{
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+}
+.work__img--two{
+    @media screen and (max-width: 768px){
+        width: 272px;
+        height: 170px;
+    }
+    @media screen and (min-width: 768px){
+        display: none;
+    }
 }

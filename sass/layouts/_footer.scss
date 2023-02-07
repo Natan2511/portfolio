@@ -4,6 +4,8 @@
     align-items: center;
     flex-direction: column;
     margin-bottom: 125px;
+    @media screen and (max-width: 768px){
+    }
 }
 .footer>p{
     font-size: 20px;
@@ -11,4 +13,9 @@
     color: var(--gray);
     margin-top: 0;
     margin-bottom: 1rem;
+    @media screen and (max-width: 768px){
+        text-align: center;
+        font-size: 15px;
+        line-height: 22px;
+    }
 }

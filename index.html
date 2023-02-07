@@ -27,8 +27,12 @@
     <section class="container">
       <div class="main__header">
         <section class="briefly">
-          <h1 class="briefly__tittle">Малыш Натаниель</h1>
-  
+          <div class="menu__container">
+            <h1 class="briefly__tittle">Малыш Натаниель</h1>
+    
+            <svg class="menu" width="50" height="45"><use href="./images/symbol-defs.svg#icon-menu"></use></svg>
+          </div>
+
           <p class="briefly__par">Frond-end разработчик 22 года, Ровно</p>
   
           <div class="briefly__list">
@@ -40,7 +44,9 @@
       </div>
   
       <div class="photo">
-        <img width="1000" height="600" src="./images/me_and_dog.png" alt="me_and_dog">
+        <img class="photo__one" width="1000" height="600" src="./images/me_and_dog.png" alt="me_and_dog">
+
+        <img class="photo__two" src="./images/profile.jpg" alt="me">
       </div>
     </section>
 
@@ -64,7 +70,7 @@
     </section>
 
                                           <!-- skills -->
-    <section id="skills" class="skills container">
+    <section id="skills" class="skills">
       <h2>Навыки</h2>
 
       <ul class="skills__list">
@@ -147,13 +153,16 @@
 
         <div class="works">
           <picture class="works__picture">
-            <img src="./images/miol.png" alt="page-one">
+            <img class="work__img--one" src="./images/miol.png" alt="page-one">
+            <img class="work__img--two" src="./images/miol_two.png" alt="page-one">
             <a href="https://www.masterface.org.ua/" target="_blank">Массажный салон лица</a>
 
-            <img src="./images/webStudio.png" alt="page-two">
+            <img class="work__img--one" src="./images/webStudio.png" alt="page-two">
+            <img class="work__img--two" src="./images/webStudio_two.png" alt="page-two">
             <a href="https://natan2511.github.io/goit-markup-hw-08/" target="_blank">Онлайн маркетинг</a>
 
-            <img src="./images/Ice.png" alt="page-three">
+            <img class="work__img--one" src="./images/Ice.png" alt="page-three">
+            <img class="work__img--two" src="./images/Ice_two.png" alt="page-three">
             <a href="https://vishpoly.github.io/alliance/#" target="_blank">Интернет-магазин мороженого</a>
           </picture>
         </div>
@@ -166,10 +175,10 @@
 
       <ul class="contacts__list">
         <li>Хотите узнать больше или просто поболтать?</li>
-        <li>Пожалуйста</li>
+        <li>Пожалуйста!</li>
       </ul>
 
-      <button type="button" class="contacts__btn"><a href="https://t.me/natan0021" target="_blank">Связаться<a></button>
+      <button type="button" class="contacts__btn "><a href="https://t.me/natan0021" target="_blank">Связаться<a></button>
 
       <ul class="contacts__list--two">
         <li>
@@ -196,7 +205,7 @@
     </section>
   </main>
 
-  <footer class="footer container">
+  <footer class="footer">
     <p>Как и я в</p>
     <p> Instagram , Telegram, Gmail, Github</p>
   </footer>
