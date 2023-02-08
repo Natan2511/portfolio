@@ -337,15 +337,50 @@ img {
   }
 }
 
+.button__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (min-width: 768px) {
-  .menu {
+  .button__menu {
     display: none;
   }
 }
 
-.btn__menu {
+.menu__btn {
+  fill: var(--very-soft-pink);
   border: 0;
   background-color: transparent;
+}
+
+.icon-cross {
+  display: none;
+}
+
+.menu__btn .line {
+  transition: y 300ms ease-in 300ms, rotate 300ms ease-in, opacity 0ms 300ms;
+  transform-origin: center;
+}
+
+.menu__btn[aria-expanded=true] .line {
+  transition: y 300ms ease-in, rotate 300ms ease-in 300ms, opacity 0ms 300ms;
+}
+
+.menu__btn[aria-expanded=true] :is(.top, .bottom) {
+  y: 45;
+}
+
+.menu__btn[aria-expanded=true] .top {
+  rotate: 45deg;
+}
+
+.menu__btn[aria-expanded=true] .middle {
+  opacity: 0;
+}
+
+.menu__btn[aria-expanded=true] .bottom {
+  rotate: -45deg;
 }
 
 .header {

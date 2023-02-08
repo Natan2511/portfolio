@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Портфолио</title>  
+  <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1827/PNG/512/4288584andbusinessfinancepersonalportfolioprofileresume-115772_115741.png" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href=".//css/main.min.css">
 </head>
@@ -31,11 +32,18 @@
           <div class="menu__container">
             <h1 class="briefly__tittle">Малыш Натаниель</h1>
             
-            <button type="button" class="btn__menu">
-              <svg class="menu mobile-button__icon" width="50" height="45" aria-label="Переключатель мобильного меню">
-                <use class="icon-menu" href="./images/symbol-defs.svg#icon-menu"></use>
-              </svg>
-            </button>
+            <div class="button__menu">
+              <button class="menu__btn" data-menu-open aria-controls="primary-navigation" aria-expanded="false">
+                <svg fill="var(--button-color)" class="hamburger" viewBox="0 0 100 100" width="25">
+                  <rect class="line top" width="80" height="10" x="10" y="25" rx="5">
+                  </rect>
+                  <rect class="line middle" width="80" height="10" x="10" y="45" rx="5">
+                  </rect>
+                  <rect class="line bottom" width="80" height="10" x="10" y="65" rx="5">
+                  </rect>
+                </svg>
+              </button>
+          </div>
 
           </div>
 
@@ -218,6 +226,8 @@
     <p>Как и я в</p>
     <p> Instagram , Telegram, Gmail, Github</p>
   </footer>
-  <script href="./js/menu.js"></script>
+
+<!-- *                js                          -->
+  <script src="./js/menu.js"></script>
 </body>
 </html>
