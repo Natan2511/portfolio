@@ -1,8 +1,19 @@
 .container{
-    margin-left: 250px;
-    margin-right: 250px;
-    @media screen and (max-width: 478px){
+    @media (min-width: 320px) and (max-width: 480px) {
         margin-left: 25px;
         margin-right: 25px;
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    @media (min-width: 1025px) {
+        margin-right: 250px;
+        margin-left: 250px;
     }
 }

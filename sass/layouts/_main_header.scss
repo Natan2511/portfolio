@@ -1,6 +1,12 @@
 
 .main__header {
     margin-bottom: 50px;
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+    }
 }
 .briefly {
     display: flex;
@@ -72,15 +78,25 @@
     
 }
 .photo__one{
-    width: 1000px;
+    max-width: 850px;
     height: 600px;
     @media screen and (max-width: 768px){
         display: none;
     }
+    @media (min-width: 481px) and (max-width: 767px) {
+        max-width: 751px;
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        max-width: 751px;
+    }
 }
 .photo__two{
-    @media screen and (max-width: 768px){
-        width: 272px;
+    @media (min-width: 320px) and (max-width: 479px) {
+        max-width: 280px;
+        height: 440px;
+    }
+    @media (min-width: 480px) and (max-width: 767px) {
+        max-width: 331px;
         height: 440px;
     }
     @media screen and (min-width: 768px){

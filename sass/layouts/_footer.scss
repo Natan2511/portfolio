@@ -7,13 +7,19 @@
     @media screen and (max-width: 768px){
         margin-bottom: 50px;
     }
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+    }
 }
 .footer>p{
     font-size: 20px;
     line-height: 17px;
     color: var(--gray);
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 15px;
     @media screen and (max-width: 768px){
         text-align: center;
         font-size: 15px;

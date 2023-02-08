@@ -288,21 +288,53 @@ img {
   display: block;
 }
 
-.container {
-  margin-left: 250px;
-  margin-right: 250px;
+.tittle {
+  font-size: 34px;
+  line-height: 42px;
+  color: var(--black);
+  margin-bottom: 50px;
+  text-align: center;
 }
-@media screen and (max-width: 478px) {
+
+@media (min-width: 320px) and (max-width: 480px) {
   .container {
     margin-left: 25px;
     margin-right: 25px;
   }
 }
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+@media (min-width: 1025px) {
+  .container {
+    margin-right: 250px;
+    margin-left: 250px;
+  }
+}
 
 .menu__container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .menu__container {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu__container {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -311,16 +343,25 @@ img {
   }
 }
 
+.btn__menu {
+  border: 0;
+  background-color: transparent;
+}
+
 .header {
   border-bottom: 1px solid var(--gray);
   margin-bottom: 40px;
 }
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .header {
     display: none;
   }
 }
-
+@media (min-width: 481px) and (max-width: 767px) {
+  .header {
+    display: none;
+  }
+}
 .header__nav {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -346,7 +387,6 @@ img {
 .main__header {
   margin-bottom: 50px;
 }
-
 .briefly {
   display: flex;
   justify-content: space-between;
@@ -430,7 +470,7 @@ img {
 }
 
 .photo__one {
-  width: 1000px;
+  max-width: 850px;
   height: 600px;
 }
 @media screen and (max-width: 768px) {
@@ -438,10 +478,26 @@ img {
     display: none;
   }
 }
+@media (min-width: 481px) and (max-width: 767px) {
+  .photo__one {
+    max-width: 751px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .photo__one {
+    max-width: 751px;
+  }
+}
 
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 479px) {
   .photo__two {
-    width: 272px;
+    max-width: 280px;
+    height: 440px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .photo__two {
+    max-width: 331px;
     height: 440px;
   }
 }
@@ -461,18 +517,11 @@ img {
   height: 506px;
   margin-bottom: 91px;
 }
-
 .about__list {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
-}
-@media screen and (max-width: 768px) {
-  .about__list {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
 }
 
 .about__tittle {
@@ -500,13 +549,6 @@ img {
   flex-direction: column;
   align-items: center;
 }
-
-.skills > h2 {
-  font-size: 34px;
-  line-height: 42px;
-  margin-bottom: 69px;
-}
-
 .skills__list {
   display: flex;
   gap: 130px;
@@ -539,15 +581,6 @@ img {
   justify-content: center;
   align-items: center;
 }
-
-.portfolio__container > h2 {
-  display: flex;
-  justify-content: center;
-  font-size: 34px;
-  line-height: 42px;
-  margin-bottom: 50px;
-}
-
 .portfolio__container {
   margin-top: 115px;
   margin-bottom: 47px;
@@ -575,6 +608,9 @@ img {
   }
 }
 
+.work__img--one {
+  width: 750px;
+}
 @media screen and (max-width: 768px) {
   .work__img--one {
     display: none;
@@ -599,20 +635,15 @@ img {
   justify-content: center;
   align-items: center;
 }
-
 .contacts > h2 {
   margin-top: 114px;
-  margin-bottom: 20px;
-  font-size: 34px;
 }
 
 .contacts__list {
   margin-bottom: 30px;
   font-size: 22px;
-  line-height: 22px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  line-height: 30px;
+  text-align: center;
   color: var(--gray);
 }
 @media screen and (max-width: 768px) {
@@ -654,15 +685,14 @@ img {
 }
 
 .contacts__list--two {
+  width: 100%;
   display: flex;
-  gap: 60px;
+  justify-content: space-evenly;
   margin-bottom: 45px;
-  margin-left: -50px;
 }
 @media screen and (max-width: 768px) {
   .contacts__list--two {
     gap: 30px;
-    margin-left: -30px;
   }
 }
 
@@ -678,13 +708,12 @@ img {
     margin-bottom: 50px;
   }
 }
-
 .footer > p {
   font-size: 20px;
   line-height: 17px;
   color: var(--gray);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 15px;
 }
 @media screen and (max-width: 768px) {
   .footer > p {

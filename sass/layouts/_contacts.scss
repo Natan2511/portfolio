@@ -3,20 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    @media (min-width: 320px) and (max-width: 480px) {
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+    }
 }
 .contacts>h2{
     margin-top: 114px;
-    margin-bottom: 20px;
-    font-size: 34px;
 }
 .contacts__list{
     margin-bottom: 30px;
     font-size: 22px;
-    line-height: 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    line-height: 30px;
+    text-align: center;
     color: var(--gray);
     @media screen and (max-width: 768px){
         text-align: center;
@@ -50,13 +51,12 @@
 }
 
 .contacts__list--two{
+    width: 100%;
     display: flex;
-    gap: 60px;
+    justify-content: space-evenly;
     margin-bottom: 45px;
-    margin-left: -50px;
     @media screen and (max-width: 768px){
         gap: 30px;
-        margin-left: -30px;
     }
 }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 </head>
 <body>
   <header class="header container">
-    <div class="container">
+    <div>
       <nav id="home" class="header__nav">
           <a class="header__nav--link" href="#home">Home</a>
           <a class="header__nav--link" href="#about">About me</a>
@@ -24,11 +24,21 @@
   <main class="main">
 
                                           <!-- main header -->
-    <section class="container">
-      <div class="main__header">
+    <section>
+      <div class="main__header container">
         <section class="briefly">
-          <h1 class="briefly__tittle">Malysh Nataniel</h1>
-  
+          
+          <div class="menu__container">
+            <h1 class="briefly__tittle">Malysh Nataniel</h1>
+            
+            <button type="button" class="btn__menu">
+              <svg class="menu mobile-button__icon" width="50" height="45" aria-label="Переключатель мобильного меню">
+                <use class="icon-menu" href="./images/symbol-defs.svg#icon-menu"></use>
+              </svg>
+            </button>
+
+          </div>
+
           <p class="briefly__par">Frond-end developer <br> 22 year, Rivne</p>
   
           <div class="briefly__list">
@@ -41,15 +51,17 @@
       </div>
   
       <div class="photo">
-        <img width="1000" height="600" src="./images/me_and_dog.png" alt="me_and_dog">
+        <img class="photo__one" width="1000" height="600" src="./images/me_and_dog.png" alt="me_and_dog">
+
+        <img class="photo__two" src="./images/profile.jpg" alt="me">
       </div>
     </section>
 
                                           <!-- about -->
     <section id="about" class="about">
-      <h2 class="about__tittle">About me</h2>
+      <h2 class="tittle">About me</h2>
 
-      <ul class="about__list">
+      <ul class="about__list container">
         <li><p class="about__por">
           Hello, I'm Nathaniel - Frond-end developer from Rivne. I am interested
           in website development and everything connected with it.
@@ -64,8 +76,8 @@
     </section>
 
                                           <!-- skills -->
-    <section id="skills" class="skills container">
-      <h2>Skills</h2>
+    <section id="skills" class="skills">
+      <h2 class="tittle">Skills</h2>
 
       <ul class="skills__list">
         <li class="skills__link">
@@ -142,18 +154,21 @@
 
                                           <!-- portfolio -->
     <section id="portfolio" class="portfolio">
-      <div class="container portfolio__container">
-        <h2>Portfolio</h2>
+      <div class="portfolio__container">
+        <h2 class="tittle">Portfolio</h2>
 
         <div class="works">
           <picture class="works__picture">
-            <img src="./images/miol.png" alt="page-one">
+            <img class="work__img--one" src="./images/miol.png" alt="page-one">
+            <img class="work__img--two" src="./images/miol_two.png" alt="page-one">
             <a href="https://www.masterface.org.ua/" target="_blank">Facial massage parlor</a>
 
-            <img src="./images/webStudio.png" alt="page-two">
+            <img class="work__img--one" src="./images/webStudio.png" alt="page-two">
+            <img class="work__img--two" src="./images/webStudio_two.png" alt="page-two">
             <a href="https://natan2511.github.io/goit-markup-hw-08/" target="_blank">Online Marketing</a>
 
-            <img src="./images/Ice.png" alt="page-three">
+            <img class="work__img--one" src="./images/Ice.png" alt="page-three">
+            <img class="work__img--two" src="./images/Ice_two.png" alt="page-three">
             <a href="https://vishpoly.github.io/alliance/#" target="_blank">Online ice cream store</a>
           </picture>
         </div>
@@ -161,15 +176,15 @@
     </section>
 
                                           <!-- contacts -->
-    <section id="contacts" class="contacts">
-      <h2>Contacts</h2>
+    <section id="contacts" class="contacts container">
+      <h2 class="tittle">Contacts</h2>
 
       <ul class="contacts__list">
         <li>Want to know more or just chat?</li>
         <li>You are welcome!</li>
       </ul>
 
-      <button type="button" class="contacts__btn"><a href="https://t.me/natan0021" target="_blank">Send message<a></button>
+      <button type="button" class="contacts__btn "><a href="https://t.me/natan0021" target="_blank">Send message</a></button>
 
       <ul class="contacts__list--two">
         <li>
@@ -177,16 +192,19 @@
             <svg width="40" height="40"><use href="./images/symbol-defs.svg#icon-instagram"></use></svg>
           </a>
         </li>
+
         <li>
           <a href="https://t.me/natan0021" target="_blank">
             <svg width="40" height="40"><use href="./images/symbol-defs.svg#icon-telegram"></use></svg>
           </a>
         </li>
+
         <li>
           <a href="mailto:mnataniel2001@gmail.com" target="_blank">
             <svg width="40" height="40"><use href="./images/symbol-defs.svg#icon-gmail"></use></svg>
           </a>
         </li>
+
         <li>
           <a href="https://github.com/Natan2511" target="_blank">
             <svg width="40" height="40"><use href="./images/symbol-defs.svg#icon-github"></use></svg>
@@ -196,9 +214,10 @@
     </section>
   </main>
 
-  <footer class="footer container">
+  <footer class="footer">
     <p>Like me on</p>
-    <p> Instagram , Telegram, Gmail, Github</p>
+    <p>Instagram , Telegram, Gmail, Github</p>
   </footer>
+  <script href="./js/menu.js"></script>
 </body>
 </html>
