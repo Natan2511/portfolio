@@ -1,0 +1,24 @@
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (min-width: 320px) and (max-width: 480px) {
+        width: 100%;
+    }
+    @media (min-width: 481px) and (max-width: 767px) {
+        width: 100%;
+    }
+}
+.button__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+.menu__btn {
+    fill: var(--very-soft-pink);
+    border: 0;
+    background-color: transparent;
+}

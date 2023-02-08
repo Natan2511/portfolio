@@ -1,15 +1,22 @@
-const buttons = document.querySelectorAll(".menu__btn");
+(() => {
+  const refs = {
+    openMenuBtn: document.querySelector("[data-menu-open]"),
+    closeMenuBtn: document.querySelector("[data-menu-close]"),
+    menu: document.querySelector("[data-menu]"),
+    menuList: document.querySelector(".mob-menu__list"),
+  };
 
-buttons.forEach((button) => {
-  button.addEventListener("click", () => {
-    const currentState = button.getAttribute("data-state");
+  refs.openMenuBtn.addEventListener("click", toggleMenu);
+  refs.closeMenuBtn.addEventListener("click", toggleMenu);
+  refs.menuList.addEventListener("click", removeMenu);
 
-    if (!currentState || currentState === "closed") {
-      button.setAttribute("data-state", "opened");
-      button.setAttribute("aria-expanded", "true");
-    } else {
-      button.setAttribute("data-state", "closed");
-      button.setAttribute("aria-expanded", "false");
-    }
-  });
-});
+  function toggleMenu() {
+    refs.menu.classList.toggle("is-hidden");
+    document.querySelector("body").classList.toggle("no-scroll");
+  }
+
+  function removeMenu() {
+    refs.menu.classList.add("is-hidden");
+    document.querySelector("body").classList.remove("no-scroll");
+  }
+})();
