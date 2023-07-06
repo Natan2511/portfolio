@@ -1,10 +1,9 @@
 # Portfolio
 
-Привет! Меня зовут Натаниель, и я фронтенд разработчик с опытом работы в HTML, CSS, JavaScript, React, Redux, SCSS и GIT. Я постоянно стремлюсь к совершенствованию своих навыков в области разработки пользовательских интерфейсов.
+Hi, my name is Nathaniel and I'm a frontend developer with experience in HTML, CSS, JavaScript, React, Redux, SCSS and GIT. I am constantly striving to improve my skills in user interface development.
 
-Я молодой и энергичный человек, готовый внести свой вклад в работу команды и полностью посвятить себя проектам. Кроме работы, я активно занимаюсь спортом, что помогает мне находить баланс между работой и личной жизнью.
+I am a young and energetic person ready to contribute to the team and fully dedicated to projects. In addition to work, I am actively involved in sports, which helps me find a balance between work and my personal life.
 
-Я ищу возможность применить свои навыки и знания в качестве фронтенд разработчика и работать в команде профессионалов, которые разделяют мою страсть к этой области. Буду рад обсудить возможность присоединиться к вашей компании.
+I'm looking to apply my skills and knowledge as a front-end developer and work in a team of professionals who share my passion for this field. I would be happy to discuss the possibility of joining your company.
 
-Спасибо и до скорой встречи!
-
+Thank you and see you soon!
