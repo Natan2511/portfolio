@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/TemplateProjectReact/static/css/main.a4cc3291.css",
-    "main.js": "/TemplateProjectReact/static/js/main.e35bdf65.js",
-    "index.html": "/TemplateProjectReact/index.html",
-    "main.a4cc3291.css.map": "/TemplateProjectReact/static/css/main.a4cc3291.css.map",
-    "main.e35bdf65.js.map": "/TemplateProjectReact/static/js/main.e35bdf65.js.map"
+    "main.css": "/portfolio/static/css/main.ba6aa931.css",
+    "main.js": "/portfolio/static/js/main.c9ffaf5b.js",
+    "static/media/Boar.png": "/portfolio/static/media/Boar.7e7498e9601ad85f5b75.png",
+    "static/media/Coctails.png": "/portfolio/static/media/Coctails.fdb45f580075cc2ad3ea.png",
+    "static/media/so_yummy.png": "/portfolio/static/media/so_yummy.1f264b4856d4cf5a51c5.png",
+    "static/media/barber.png": "/portfolio/static/media/barber.156e9cd77d6b3481c717.png",
+    "static/media/WebStudio.png": "/portfolio/static/media/WebStudio.d46e5a357bbf7c715f11.png",
+    "static/media/ice_cream.png": "/portfolio/static/media/ice_cream.db0f0a831e8eec413077.png",
+    "static/media/photo_5.jpg": "/portfolio/static/media/photo_5.49a87f91821048b4c178.jpg",
+    "static/media/wallet.png": "/portfolio/static/media/wallet.c7ff46e8e14c0464187b.png",
+    "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.a4cc3291.css",
-    "static/js/main.e35bdf65.js"
+    "static/css/main.ba6aa931.css",
+    "static/js/main.c9ffaf5b.js"
   ]
 }
