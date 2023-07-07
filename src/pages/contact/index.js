@@ -1,23 +1,23 @@
-import React, { useState } from "react";
-import * as emailjs from "emailjs-com";
-import "./style.css";
-import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
-import { Container, Row, Col, Alert } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import React, { useState } from 'react';
+import * as emailjs from 'emailjs-com';
+import './style.css';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { meta } from '../../content_option';
+import { Container, Row, Col, Alert } from 'react-bootstrap';
+import { contactConfig } from '../../content_option';
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
-    email: "",
-    name: "",
-    message: "",
+    email: '',
+    name: '',
+    message: '',
     loading: false,
     show: false,
-    alertmessage: "",
-    variant: "",
+    alertmessage: '',
+    variant: '',
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = e => {
     e.preventDefault();
     setFormdata({ loading: true });
 
@@ -36,28 +36,28 @@ export const ContactUs = () => {
         contactConfig.YOUR_USER_ID
       )
       .then(
-        (result) => {
+        result => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
-            variant: "success",
+            alertmessage: 'SUCCESS! ,Thankyou for your messege',
+            variant: 'success',
             show: true,
           });
         },
-        (error) => {
+        error => {
           console.log(error.text);
           setFormdata({
             alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
+            variant: 'danger',
             show: true,
           });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
+          document.getElementsByClassName('co_alert')[0].scrollIntoView();
         }
       );
   };
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     setFormdata({
       ...formData,
       [e.target.name]: e.target.value,
@@ -84,7 +84,7 @@ export const ContactUs = () => {
               //show={formData.show}
               variant={formData.variant}
               className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
+                formData.show ? 'd-block' : 'd-none'
               }`}
               onClose={() => setFormdata({ show: false })}
               dismissible
@@ -95,18 +95,18 @@ export const ContactUs = () => {
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
-              <strong>Email:</strong>{" "}
+              <strong>Email:</strong>{' '}
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {contactConfig.hasOwnProperty('YOUR_FONE') ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
                 </p>
               ) : (
-                ""
+                ''
               )}
             </address>
             <p>{contactConfig.description}</p>
@@ -120,7 +120,7 @@ export const ContactUs = () => {
                     id="name"
                     name="name"
                     placeholder="Name"
-                    value={formData.name || ""}
+                    value={formData.name || ''}
                     type="text"
                     required
                     onChange={handleChange}
@@ -133,7 +133,7 @@ export const ContactUs = () => {
                     name="email"
                     placeholder="Email"
                     type="email"
-                    value={formData.email || ""}
+                    value={formData.email || ''}
                     required
                     onChange={handleChange}
                   />
@@ -153,7 +153,7 @@ export const ContactUs = () => {
               <Row>
                 <Col lg="12" className="form-group">
                   <button className="btn ac_btn" type="submit">
-                    {formData.loading ? "Sending..." : "Send"}
+                    {formData.loading ? 'Sending...' : 'Send'}
                   </button>
                 </Col>
               </Row>
@@ -161,7 +161,7 @@ export const ContactUs = () => {
           </Col>
         </Row>
       </Container>
-      <div className={formData.loading ? "loading-bar" : "d-none"}></div>
+      <div className={formData.loading ? 'loading-bar' : 'd-none'}></div>
     </HelmetProvider>
   );
 };
