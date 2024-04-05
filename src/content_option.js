@@ -6,6 +6,9 @@ import ice_cream from './assets/images/ice_cream.png';
 import boar from './assets/images/Boar.png';
 import wallet from './assets/images/wallet.png';
 import barber from './assets/images/barber.png';
+import scroll from './assets/images/scroll.png';
+import digital from './assets/images/digital1.jpg';
+import ecoCabins from './assets/images/EcoCabins1.jpg';
 
 const logotext = 'Nataniiel';
 const meta = {
@@ -140,11 +143,32 @@ const dataportfolio = [
     live: 'https://natan2511.github.io/boar/',
     repo: 'https://github.com/Natan2511/boar',
   },
+  {
+    img: scroll,
+    description:
+      'A website with an adaptive layout to showcase the services and offerings of a kickboxing coach. The site is optimized for different screen sizes and devices.  ',
+    live: 'https://natan2511.github.io/CREATIVE-SCROLL/',
+    repo: 'https://github.com/Natan2511/CREATIVE-SCROLL',
+  },
+  {
+    img: ecoCabins,
+    description:
+      'Eco Cabins - a customized project done during the post-training period. Landing page for a construction company. Includes one page.  ',
+    live: 'https://natan2511.github.io/EcoCabins/',
+    repo: 'https://github.com/Natan2511/EcoCabins',
+  },
+  {
+    img: digital,
+    description:
+      'Digital - a customized project done during the post-training period. Landing page for a construction company. Includes one page with adaptive design.  ',
+    live: 'https://natan2511.github.io/Digital_project/',
+    repo: 'https://github.com/Natan2511/Digital_project',
+  },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: 'mnataniel2001@gmail.com',
-  YOUR_FONE: '+380 73 394 63 21',
+  YOUR_FONE: '+7 916 006-86-26',
   description:
     'I am always available to answer your questions, discuss ideas and take on new challenges. Feel free to contact me at the contacts listed. Thank you and look forward to our cooperation! ',
   YOUR_SERVICE_ID: 'service_dz0zqdv',
@@ -155,7 +179,7 @@ const contactConfig = {
 const socialprofils = {
   github: 'https://github.com/Natan2511',
   linkedin: 'https://linkedin.com/in/nataniel-malysh',
-  telegram: 'https://t.me/natan2511',
+  telegram: 'https://t.me/natan0021',
 };
 export {
   meta,

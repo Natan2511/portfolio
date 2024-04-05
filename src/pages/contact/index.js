@@ -104,7 +104,7 @@ export const ContactUs = () => {
               {contactConfig.hasOwnProperty('YOUR_FONE') ? (
                 <p>
                   <strong>
-                    <a href="tel:+380733946321">Phone:</a>
+                    <a href="tel:+79160068626">Phone:</a>
                   </strong>{' '}
                   {contactConfig.YOUR_FONE}
                 </p>
