@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ba6aa931.css",
-    "main.js": "/portfolio/static/js/main.baf15ef8.js",
+    "main.js": "/portfolio/static/js/main.77af268c.js",
+    "static/media/scroll.png": "/portfolio/static/media/scroll.8f9f1bd8d852313aa630.png",
     "static/media/Boar.png": "/portfolio/static/media/Boar.7e7498e9601ad85f5b75.png",
     "static/media/Coctails.png": "/portfolio/static/media/Coctails.fdb45f580075cc2ad3ea.png",
     "static/media/so_yummy.png": "/portfolio/static/media/so_yummy.1f264b4856d4cf5a51c5.png",
     "static/media/barber.png": "/portfolio/static/media/barber.156e9cd77d6b3481c717.png",
     "static/media/WebStudio.png": "/portfolio/static/media/WebStudio.d46e5a357bbf7c715f11.png",
     "static/media/ice_cream.png": "/portfolio/static/media/ice_cream.db0f0a831e8eec413077.png",
+    "static/media/EcoCabins1.jpg": "/portfolio/static/media/EcoCabins1.8da45485978b6b79b408.jpg",
+    "static/media/digital1.jpg": "/portfolio/static/media/digital1.53c6ac3d6ed9f29572f0.jpg",
     "static/media/photo_5.jpg": "/portfolio/static/media/photo_5.49a87f91821048b4c178.jpg",
     "static/media/wallet.png": "/portfolio/static/media/wallet.c7ff46e8e14c0464187b.png",
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.ba6aa931.css",
-    "static/js/main.baf15ef8.js"
+    "static/js/main.77af268c.js"
   ]
 }
