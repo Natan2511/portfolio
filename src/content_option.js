@@ -9,6 +9,9 @@ import barber from './assets/images/barber.png';
 import scroll from './assets/images/scroll.png';
 import digital from './assets/images/digital1.jpg';
 import ecoCabins from './assets/images/EcoCabins1.jpg';
+import slozhnoSosredotochitsya from './assets/images/slozhnoSosredotochitsya.jpeg';
+import paketShop from './assets/images/paketShop0.jpeg';
+import brazilzpenalty from './assets/images/brazilzpenalty0.png';
 
 const logotext = 'Nataniiel';
 const meta = {
@@ -163,6 +166,27 @@ const dataportfolio = [
       'Digital - a customized project done during the post-training period. Landing page for a construction company. Includes one page with adaptive design.  ',
     live: 'https://natan2511.github.io/Digital_project/',
     repo: 'https://github.com/Natan2511/Digital_project',
+  },
+  {
+    img: brazilzpenalty,
+    description:
+      'A website created using HTML, CSS and JavaScript designed to teach people how to make money online.  ',
+    live: 'https://natan2511.github.io/brazilzpenalty/',
+    repo: 'https://github.com/Natan2511/brazilzpenalty',
+  },
+  {
+    img: paketShop,
+    description:
+      'A website created using HTML, CSS and JavaScript designed to sell zip packages online.  ',
+    live: 'https://natan2511.github.io/paket.shopkv.online/',
+    repo: 'https://github.com/Natan2511/paket.shopkv.online',
+  },
+  {
+    img: slozhnoSosredotochitsya,
+    description:
+      'Website created using HTML, CSS and JavaScript, created as a personal mini-project.  ',
+    live: 'https://natan2511.github.io/slozhno-sosredotochitsya/',
+    repo: 'https://github.com/Natan2511/slozhno-sosredotochitsya',
   },
 ];
 
